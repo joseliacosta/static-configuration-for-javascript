@@ -30,11 +30,6 @@
       "pre-commit": "npm run check-types && lint-staged && npm run build"
     }
   },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joselialcosta/static-configuration-for-javascript.git"
