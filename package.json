@@ -1,0 +1,26 @@
+{
+  "name": "static-configuration-for-javascript",
+  "version": "1.0.0",
+  "description": "This repo contains my boilerplate config for static tools that improves dev xp and prevent silly errors when you work with typescript.  > Why did you not used create-react-app or other javascript framework to do it for you? I am not a purist, so sometimes I love market tools to help me with something quickly. But as a curious, I like to know how to config my own stuff.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joselialcosta/static-configuration-for-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joselialcosta/static-configuration-for-javascript/issues"
+  },
+  "homepage": "https://github.com/joselialcosta/static-configuration-for-javascript#readme"
+}
