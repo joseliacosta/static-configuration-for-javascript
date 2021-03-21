@@ -9,7 +9,10 @@
     "prettier": "^2.2.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src",
+    "format": "npm run prettier -- --write",
+    "prettier": "prettier \"**/*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|md|graphql|mdx)\"",
+    "validate": "npm run lint && npm run prettier -- --list-different"
   },
   "config": {
     "commitizen": {
